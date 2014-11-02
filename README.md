@@ -18,4 +18,4 @@ Architecture
 	- Support compressed/encrypted payloads too (embedded cryptokey)
 - Test app which supports text output and keyboard entry, like a classical adventure game
 	- Top-level Main object holding everything in place
-	- Parse JSON of command-line supplied data file (see example at https://github.com/markmckenna/adventure-game/blob/master/src/main/resources/sample.json)
+	- Parse JSON of command-line supplied data file (see example at https://github.com/markmckenna/adventure-game/blob/master/src/main/resources/pentagram.json)

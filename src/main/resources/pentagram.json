@@ -1,0 +1,58 @@
+{
+	"author": "Mark McKenna",
+	"pubDate": "2014/11/02",
+	"startPage": "pentagram",
+	"optionPrompt": "What do you want to do?",
+	"properties": {
+		"score": 0,
+	},
+	"pages": {
+		"pentagram": {
+			"description": "
+				You rise slowly into consciousness, feeling strangely warm, and force open one eye.  You are lying on your face in something sticky and sweet smelling.  Through blurred vision you see flickering candles above you, bright against a brownish backdrop, with splashes of red on the surface below you.  Squinting to clear your vision, the foreground pulls into focus enough that you can identify the red, sticky substance as, most likely, human blood.  With a shiver of panic, you emit a guttural sounding grunt and force yourself onto hands and knees, slipping in the process and knocking one of the candles across the floor.
+				Looking around, you confirm your worst fears: you are crouching, half inside and half outside of a pentagram drawn crudely in blood.  On each point (but one) stands a tallish silver candlestick with a sputtering, nearly-depleted candle in it; the wax is coloured in irregular, patchy red, leading you to suspect that more blood was used in the candles' dipping.
+				You and the pentagram are in a smallish room with loosely fitted hard wood floorboards and old stud walls with no surfacing on the inside.  There are no windows, and only one small door which looks like it was assembled from whatever the owner happened to have lying around.  The ceiling is made from heavy wood and sags slightly at the middle.  You can detect a faint smell of earth and probably mildew through the powerful odour of the blood which covers your face.
+			",
+			"options" : [
+				{
+					"description": "Investigate your surroundings",
+					"target": "investigate-pentagram"
+				},
+				{
+					"description": "Try to remember something",
+					"target": "remember"
+				},
+				{
+					"description": "Get the hell out of Dodge",
+					"target": "leave-pentagram"
+				}
+			],
+			"optionPrompt": "How do you want to handle this situation?"
+		},
+
+		"remember": {
+			"description": "
+				You have to force down the rising feeling of panic in your chest, as you realize that you can recall nothing concrete, prior to 45 seconds ago when you woke up on the floor.  The situation has a sense of familiarity to it, as though you're somehow used to messing about with pentagrams, like it was somehow normal--and yet, you view this realization with some surprise, implying that on a deeper level, you believe that messing about with pentagrams is *not* normal.
+				You can tell that there are memories in there that want to come out, but trying to reach toward them causes them to flee in a frustrating and horror-inducing manner.  Taking a deep breath and letting your mind relax as much as possible, you feel generalized notions coming to you: browns and reds seem to occupy your life, rippled with pain and fear, punctuated by the occasional, sharply defined flashes of blues and greens.  A euphoric sense of lightness accompanies these moments, as though blue sky were something rare and treasured.
+			",
+			"results": "score +1",
+			"options" : [
+				{
+					"description": "Investigate your surroundings",
+					"target": "investigate-pentagram"
+				},
+				{
+					"description": "Get the hell out of Dodge",
+					"target": "leave-pentagram"
+				}
+			]
+		}
+	},
+	"endings": {
+		"death-by-water": {
+			"description": "
+				Leaving the dock proves to be your undoing.  It turns out that, not only do you not swim, you don't float very well either.  As panic takes over you flail and writhe, gulping for air and getting water instead.  Terror grips you as your head leaves the surface for the last time, and the feeling of being desperate to breathe, but unable to, penetrates deep into your mind.  Eventually, the fear subsides from your oxygen-starved brain and you observe, unmoving, the surface of the water high above you as your vision becomes cloudy and your consciousness departs your body forever.
+			"
+		}
+	}
+}
