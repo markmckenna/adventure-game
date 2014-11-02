@@ -1,4 +1,4 @@
-adventure-game
+Adventure Game
 ==============
 
 A choose-your-own-adventure style game engine/platform.
@@ -14,17 +14,17 @@ A story-driven adventure game where the player moves through a semi-scripted env
 Architecture
 ------------
 
-	- Base library which parses a JSON-derived content file
-		- Support compressed/encrypted payloads too (embedded cryptokey)
-	- Test app which supports text output and keyboard entry, like a classical adventure game
-		- Top-level Main object holding everything in place
-		- Parse JSON of command-line supplied data file
+- Base library which parses a JSON-derived content file
+	- Support compressed/encrypted payloads too (embedded cryptokey)
+- Test app which supports text output and keyboard entry, like a classical adventure game
+	- Top-level Main object holding everything in place
+	- Parse JSON of command-line supplied data file
 
 JSON Format
 -----------
 
 ```json
 {
-
+	
 }
 ```
