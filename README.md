@@ -10,3 +10,21 @@ A story-driven adventure game where the player moves through a semi-scripted env
   - Start with a simple demo renderer, story but no pictures
   - Move on to an Android renderer so it can be easily passed around
   - Different renderers can all render the same content which can be served on the web
+
+Architecture
+------------
+
+	- Base library which parses a JSON-derived content file
+		- Support compressed/encrypted payloads too (embedded cryptokey)
+	- Test app which supports text output and keyboard entry, like a classical adventure game
+		- Top-level Main object holding everything in place
+		- Parse JSON of command-line supplied data file
+
+JSON Format
+-----------
+
+```json
+{
+
+}
+```
